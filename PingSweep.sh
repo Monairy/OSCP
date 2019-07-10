@@ -4,3 +4,4 @@ read Subnet
    do ping -c 1 Subnet.$i | tr \\n ' ' | awk '/1 received/ {print $2}'; 
   done
  
+ 
